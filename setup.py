@@ -41,6 +41,6 @@ setup(
     long_description=open('README.rst').read(),
     packages=["yatiblog"],
     url="https://github.com/tav/yatiblog",
-    version="1.0",
+    version="1.0.1",
     zip_safe=True
     )
