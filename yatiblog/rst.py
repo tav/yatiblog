@@ -560,12 +560,6 @@ def convert(content):
         '--', '&mdash;').replace(
         '<<', '&laquo;').replace(
         '>>', '&raquo;').replace(
-        '(C)','&copy;').replace(    # hmz, why am i promoting ipr? ;p
-        '(c)','&copy;').replace(
-        '(tm)','&trade;').replace(
-        '(TM)','&trade;').replace(
-        '(r)','&reg;').replace(
-        '(R)','&reg;').replace(
         '...', '&#8230;').replace(
         'HTML-COMMENT-ELEMENT-CLOSE', ' -->')
 
