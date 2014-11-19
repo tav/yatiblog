@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Public Domain (-) 2004-2011 The a Authors.
+# Public Domain (-) 2004-2014 The Yatiblog Authors.
 # See the Yatiblog UNLICENSE file for details.
 
 r"""
@@ -811,6 +811,7 @@ def render_rst(
 
     settings = option_parser.get_default_values()
     settings._update_loose({
+        'embed_stylesheet': False,
         'footnote_references': 'superscript', # 'mixed', 'brackets'
         'halt_level': 6,
         'trim_footnote_reference_space': 1,

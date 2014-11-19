@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-# Public Domain (-) 2004-2011 The Yatiblog Authors.
+# Public Domain (-) 2004-2014 The Yatiblog Authors.
 # See the Yatiblog UNLICENSE file for details.
 
 from setuptools import setup
@@ -41,6 +41,6 @@ setup(
     long_description=open('README.rst').read(),
     packages=["yatiblog"],
     url="https://github.com/tav/yatiblog",
-    version="1.0.1",
+    version="1.0.2",
     zip_safe=True
     )
